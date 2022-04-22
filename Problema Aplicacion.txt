@@ -1,0 +1,30 @@
+"""
+La Universidad de San Carlos solicita una aplicación que determine los días de vacaciones a los 
+que tiene derecho un trabajador, tomando en cuenta las siguientes características:
+
+Existen 3 departamentos registrados con los siguientes códigos:
+1. Departamento de atención al público (Clave 1)
+2. Departamento de logística (Clave 2)
+3. Gerencia (Clave 3)
+
+Para los trabajadores con clave 1:
+    - Con 1 año de trabajo, reciben 6 días de vacaciones
+    - Con 2 años de trabajo, reciben 14 días de vacaciones
+    - Con 7 años o más de trabajo ininterrumpido, reciben 20 días de vacaciones
+
+Para los trabajadores con clave 2:
+    - Con 1 año de trabajo, reciben 7 días de vacaciones
+    - Con 2 años de trabajo, reciben 15 días de vacaciones
+    - Con 7 años o más de trabajo ininterrumpido, reciben 22 días de vacaciones
+
+Para los trabajadores con clave 3:
+    - Con 1 año de trabajo, reciben 10 días de vacaciones
+    - Con 2 años de trabajo, reciben 20 días de vacaciones
+    - Con 7 años o más de trabajo ininterrumpido, reciben 30 días de vacaciones
+
+Requerimientos:
+El sistema debe de solicitar el nombre, la clave del departamento y la antigüedad del
+empleado desde el teclado. Por último, el sistema debe de mostrar un mensaje en
+pantalla, que contenga el nombre del trabajador y los días de vacaciones a los que
+tiene derecho
+"""
